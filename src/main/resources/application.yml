@@ -2,14 +2,4 @@ server:
   port: 8083
 spring:
   application:
-    name: order-service-api-gateway
-
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
-  instance:
-    preferIpAddress: true
-  registerWithEureka: true
-  fetchRegistry: true
+    name: order-service
